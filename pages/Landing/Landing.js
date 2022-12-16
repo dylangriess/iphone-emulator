@@ -1,7 +1,12 @@
 import React from "react";
+import { View, Text } from "react-native";
 
 function Landing() {
-  return <div>Landing</div>;
+  return (
+    <View>
+      <Text>Hello</Text>
+    </View>
+  );
 }
 
 export default Landing;
